@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Valyuta kursi";
+}
+
+@model List<Root>
+
+<table class="table">
+  <thead class="table-dark">
+     <th scope="col">Title</th>
+     <th scope="col">Code</th>
+      <th scope="col">Cb_price</th>
+      <th scope="col">Nbu_buy_price</th>
+      <th scope="col">Nbu_cell_price</th>
+      <th scope="col">Date</th>
+  </thead>
+  <tbody>
+    @foreach(var p in Model)
+    {
+        <tr>
+          <td>@p.title</td>
+          <td>@p.code</td>
+          <td>@p.cb_price</td>
+          <td>@p.nbu_buy_price</td> 
+          <td>@p.nbu_cell_price</td> 
+          <td>@p.date</td> 
+        </tr>
+    } 
+  </tbody>
+</table>
+

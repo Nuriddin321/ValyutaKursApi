@@ -1,0 +1,49 @@
+/* _content/ApiConnect/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-zt8sh27ztc] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-zt8sh27ztc] {
+  color: #0077cc;
+}
+
+.btn-primary[b-zt8sh27ztc] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-zt8sh27ztc], .nav-pills .show > .nav-link[b-zt8sh27ztc] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-zt8sh27ztc] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-zt8sh27ztc] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-zt8sh27ztc] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-zt8sh27ztc] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-zt8sh27ztc] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
